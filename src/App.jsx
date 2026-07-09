@@ -4,13 +4,28 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import AddBook from './components/AddBook'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import SearchBook from './components/SearchBook'
+import DeleteBook from './components/DeleteBook'
+import ViewBooks from './components/ViewBooks'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <AddBook />
+      <BrowserRouter>
+
+        <Routes>
+
+          <Route path='/' element={<AddBook />} />
+          <Route path='/search' element={<SearchBook />} />
+          <Route path='/delete' element={<DeleteBook />} />
+          <Route path='/view' element={<ViewBooks />} />
+
+        </Routes>
+
+      </BrowserRouter>
     </>
   )
 }
