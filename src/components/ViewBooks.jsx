@@ -76,6 +76,71 @@ const ViewBooks = () => {
                                 </div>
 
                             </div>
+                            <div className="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+
+                                <div class="card">
+                                    <img src="https://covers.openlibrary.org/b/isbn/9780061122415-L.jpg?utm_source=chatgpt.com" height="300px" class="card-img-top" alt="..." />
+                                    <div class="card-body">
+                                        <h6 class="card-title">Title: The Alchemist</h6>
+                                        <h6 class="card-title">Author: Paulo Coelho</h6>
+                                        <h6 class="card-title">Price: 399</h6>
+                                        <a href="#" class="btn btn-success">Add to cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div className="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+
+                                <div class="card">
+                                    <img src="https://covers.openlibrary.org/b/isbn/9780061122415-L.jpg?utm_source=chatgpt.com" height="300px" class="card-img-top" alt="..." />
+                                    <div class="card-body">
+                                        <h6 class="card-title">Title: The Alchemist</h6>
+                                        <h6 class="card-title">Author: Paulo Coelho</h6>
+                                        <h6 class="card-title">Price: 399</h6>
+                                        <a href="#" class="btn btn-success">Add to cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div className="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+
+                                <div class="card">
+                                    <img src="https://covers.openlibrary.org/b/isbn/9780061122415-L.jpg?utm_source=chatgpt.com" height="300px" class="card-img-top" alt="..." />
+                                    <div class="card-body">
+                                        <h6 class="card-title">Title: The Alchemist</h6>
+                                        <h6 class="card-title">Author: Paulo Coelho</h6>
+                                        <h6 class="card-title">Price: 399</h6>
+                                        <a href="#" class="btn btn-success">Add to cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div className="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+
+                                <div class="card">
+                                    <img src="https://covers.openlibrary.org/b/isbn/9780061122415-L.jpg?utm_source=chatgpt.com" height="300px" class="card-img-top" alt="..." />
+                                    <div class="card-body">
+                                        <h6 class="card-title">Title: The Alchemist</h6>
+                                        <h6 class="card-title">Author: Paulo Coelho</h6>
+                                        <h6 class="card-title">Price: 399</h6>
+                                        <a href="#" class="btn btn-success">Add to cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div className="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+
+                                <div class="card">
+                                    <img src="https://covers.openlibrary.org/b/isbn/9780061122415-L.jpg?utm_source=chatgpt.com" height="300px" class="card-img-top" alt="..." />
+                                    <div class="card-body">
+                                        <h6 class="card-title">Title: The Alchemist</h6>
+                                        <h6 class="card-title">Author: Paulo Coelho</h6>
+                                        <h6 class="card-title">Price: 399</h6>
+                                        <a href="#" class="btn btn-success">Add to cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
 
                     </div>
