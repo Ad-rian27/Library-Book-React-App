@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const NavigationBar = () => {
   return (
@@ -11,9 +12,9 @@ const NavigationBar = () => {
         }}
       >
         <div className="container-fluid">
-          <a
+          <Link
             className="navbar-brand fw-bold"
-            href="/"
+            to="/"
             style={{
               color: "white",
               fontSize: "28px",
@@ -21,7 +22,7 @@ const NavigationBar = () => {
             }}
           >
             📚 Book App
-          </a>
+          </Link>
 
           <button
             className="navbar-toggler bg-light"
@@ -38,9 +39,9 @@ const NavigationBar = () => {
           >
             <div className="navbar-nav">
 
-              <a
+              <Link
                 className="nav-link mx-2"
-                href="/"
+                to="/"
                 style={{
                   color: "white",
                   fontWeight: "500",
@@ -50,11 +51,11 @@ const NavigationBar = () => {
                 }}
               >
                 ➕ Add Book
-              </a>
+              </Link>
 
-              <a
+              <Link
                 className="nav-link mx-2"
-                href="/search"
+                to="/search"
                 style={{
                   color: "white",
                   fontWeight: "500",
@@ -63,11 +64,11 @@ const NavigationBar = () => {
                 }}
               >
                 🔍 Search Book
-              </a>
+              </Link>
 
-              <a
+              <Link
                 className="nav-link mx-2"
-                href="/delete"
+                to="/delete"
                 style={{
                   color: "white",
                   fontWeight: "500",
@@ -76,11 +77,11 @@ const NavigationBar = () => {
                 }}
               >
                 🗑 Delete Book
-              </a>
+              </Link>
 
-              <a
+              <Link
                 className="nav-link mx-2"
-                href="/view"
+                to="/view"
                 style={{
                   color: "white",
                   fontWeight: "500",
@@ -89,7 +90,7 @@ const NavigationBar = () => {
                 }}
               >
                 📖 View Books
-              </a>
+              </Link>
 
             </div>
           </div>
